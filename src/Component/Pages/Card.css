@@ -33,4 +33,6 @@
 .card-description {
   font-size: 14px;
   color: #666;
+  width: 80%;
+  text-align: center;
 }

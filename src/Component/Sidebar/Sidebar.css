@@ -25,6 +25,7 @@ a {
   transition: color 0.3s;
   padding: 10px;
   border-radius: 10px;
+  color: #000;
 }
 
 a:hover {
