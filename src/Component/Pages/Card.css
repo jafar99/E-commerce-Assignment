@@ -6,6 +6,7 @@
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
   width: 25rem;
+  height: 27rem;
   padding: 15px;
 }
 

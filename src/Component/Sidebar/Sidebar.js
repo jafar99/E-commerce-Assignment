@@ -6,7 +6,6 @@ const Sidebar = () => {
   const location = useLocation();
   const [selectedSubMenu, setSelectedSubMenu] = useState(null);
 
-  // Function to handle submenu selection
   const handleSubMenuSelect = (submenu) => {
     setSelectedSubMenu(submenu);
   };
