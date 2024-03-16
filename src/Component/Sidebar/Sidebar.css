@@ -59,3 +59,11 @@ a:hover {
   background-color: #c95353;
   color: #fff;
 }
+
+.selected-submenu {
+  background-color: #c95353;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
