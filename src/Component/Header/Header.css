@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00563c;
+  color: #fff;
+  padding: 20px 25px;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-icon,
+.navbar-logout {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+
+.navbar-icon svg {
+  font-size: 24px;
+}

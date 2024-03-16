@@ -1,0 +1,49 @@
+.slider {
+  width: 100%;
+  background: #f4f6fc;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.slider-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  width: 40vw;
+  transition: transform 0.3s ease;
+}
+
+button {
+  font-size: 3rem;
+  color: #707070;
+  margin: 0 1rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.dot {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0.6rem;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #007bff;
+}

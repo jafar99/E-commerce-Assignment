@@ -1,0 +1,60 @@
+.sidebar {
+  width: 14rem;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  box-shadow: 0 0 0.6rem 0 rgba(0, 0, 0, 0.25);
+  border-radius: 0 0.3rem 0.3rem 0;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 10px 10px 0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #c95353;
+}
+
+.submenu {
+  padding-left: 20px;
+}
+
+.submenu li {
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.submenu a {
+  color: #bbb;
+}
+
+.submenu a:hover {
+  color: #fff;
+}
+
+.activeLink {
+  background-color: #c95353;
+  color: #fff;
+}
+
+.activeSubLink {
+  background-color: #c95353;
+  color: #fff;
+}
